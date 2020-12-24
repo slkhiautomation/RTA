@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "KHILT-2391",
+    "children" : [ {
+      "name" : "11308@KHILT-2391.main(1)",
+      "children" : [ {
+        "name" : "Validate user is able to proceed guest checkout on searched product",
+        "uid" : "ecfcc016d83bf46a",
+        "parentUid" : "e3fb62ef7f6d92c0ba9d3f39d0e115f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603111684582,
+          "stop" : 1603111814727,
+          "duration" : 130145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3fb62ef7f6d92c0ba9d3f39d0e115f2"
+    }, {
+      "name" : "12056@KHILT-2391.main(1)",
+      "children" : [ {
+        "name" : "Validate user is able to search the Product",
+        "uid" : "b2cb6c583175c7a2",
+        "parentUid" : "f3c5e0822987475433cd803669f3cd92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603110685586,
+          "stop" : 1603110719486,
+          "duration" : 33900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3c5e0822987475433cd803669f3cd92"
+    } ],
+    "uid" : "612944db73b5b3529ad5854bf6881038"
+  } ]
+}

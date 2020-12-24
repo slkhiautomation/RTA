@@ -1,0 +1,72 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:e2e="http://E2E/E2EOrderTrackingWS.tws">
+    <soap:Header/>
+    <soap:Body>
+        <e2e:NotifyOrderMilestones>
+            <e2e:request>
+                <e2e:transactionID>TXN-160569260000112345</e2e:transactionID>
+                <e2e:requestedSystem>BCRM</e2e:requestedSystem>
+                <!--Optional:-->
+                <e2e:requestedDate>18-11-2020 14:43:20</e2e:requestedDate>
+                <e2e:E2ERequest>
+                    <e2e:eventType>OrderLineItemCreated</e2e:eventType>
+                    <!--Optional:-->
+                    <!--Optional:-->
+                    <e2e:BCRMOrderID>ORD-1605692600001-123-BCRM</e2e:BCRMOrderID>
+                    <e2e:eventDateTime>18-11-2020 14:43:20</e2e:eventDateTime>
+                    <e2e:productIdentifier>Fixed</e2e:productIdentifier>
+                    <e2e:orderChannel>BCRM</e2e:orderChannel>
+                    <e2e:customer>
+                        <!--Optional:-->
+                        <e2e:customerID>B1867709</e2e:customerID>
+                        <!--Optional:-->
+                        <e2e:partyID>21375976</e2e:partyID>
+                        <!--Optional:-->
+                        <e2e:customerName>QA Waqar</e2e:customerName>
+                        <!--Optional:-->
+                        <e2e:partyName>QA TestCustomer Prospect</e2e:partyName>
+                        <e2e:customerSegment>SMB</e2e:customerSegment>
+                        <!--Optional:-->
+                        <e2e:contactName>Test Customer</e2e:contactName>
+                        <e2e:customerRegion>DX</e2e:customerRegion>
+                        <!--Optional:-->
+                        <e2e:owner>Sales</e2e:owner>
+                    </e2e:customer>
+                    <!--Optional:-->
+                    <!--Optional:-->
+                    <e2e:order>
+                        <e2e:ownerUserID>DUSER_18454 Zawaydeh</e2e:ownerUserID>
+                        <e2e:businessUnit>ES Account Managers</e2e:businessUnit>
+                        <e2e:orderDescription>OrderLineItem Id already exists error should be shown rather than RequestCreation stage was not expected on Request Creation stage OrderLineItem Id already exists error should be shown rather than RequestCreation stage was not expected on Request Creation stage</e2e:orderDescription>
+                    </e2e:order>
+                    <!--Optional:-->
+                    <e2e:orderLineItem>
+                        <!--Zero or more repetitions:-->
+                        <e2e:item>
+                            <!--Optional:-->
+                            <e2e:orderLineItemID>ORD-1605692600001-WA-ggg-02-123</e2e:orderLineItemID>
+                            <!--Optional:-->
+                            <e2e:orderLineItemStatus>Draft</e2e:orderLineItemStatus>
+                            <!--Optional:-->
+                            <e2e:channelID>Direct Sales</e2e:channelID>
+                            <!--Optional:-->
+                            <e2e:ownerUserID>DUSER_18454 Zawaydeh</e2e:ownerUserID>
+                            <!--Optional:-->
+                            <e2e:productOfferingName>Email - FW: [WARNING: UNSCANNABLE EXTRACTION FAILED]RE: طلب توفير خط بيانات TKT-20190527-00226 - Ord qewrqwrqwerqwerqweqwereqwrqwerqwerer</e2e:productOfferingName>
+                            <!--Optional:-->
+                            <e2e:product>
+                                <!--Zero or more repetitions:-->
+                                <e2e:item>
+                                    <!--Optional:-->
+                                    <e2e:productCode>Business Talk</e2e:productCode>
+                                    <!--Optional:-->
+                                    <e2e:productFlavour>ProdFlav</e2e:productFlavour>
+                                    <e2e:productDescription>Product Structure Item</e2e:productDescription>
+                                </e2e:item>
+                            </e2e:product>
+                        </e2e:item>
+                    </e2e:orderLineItem>
+                </e2e:E2ERequest>
+            </e2e:request>
+        </e2e:NotifyOrderMilestones>
+    </soap:Body>
+</soap:Envelope>

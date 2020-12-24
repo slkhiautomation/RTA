@@ -1,0 +1,335 @@
+{
+  "uid" : "ecfcc016d83bf46a",
+  "name" : "Validate user is able to proceed guest checkout on searched product",
+  "historyId" : "ef9a08c10f1fdd849574368669e3a96b",
+  "time" : {
+    "start" : 1603111684582,
+    "stop" : 1603111814727,
+    "duration" : 130145
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Hooks.beforeScenario(Scenario)",
+      "time" : {
+        "start" : 1603111688892,
+        "stop" : 1603111688894,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given  Navigate to Application",
+      "time" : {
+        "start" : 1603111688928,
+        "stop" : 1603111703700,
+        "duration" : 14772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  user search the product",
+      "time" : {
+        "start" : 1603111703715,
+        "stop" : 1603111707008,
+        "duration" : 3293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Click on search button",
+      "time" : {
+        "start" : 1603111707011,
+        "stop" : 1603111715952,
+        "duration" : 8941
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  user able to see searched product in result",
+      "time" : {
+        "start" : 1603111715955,
+        "stop" : 1603111718327,
+        "duration" : 2372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  user select product",
+      "time" : {
+        "start" : 1603111718328,
+        "stop" : 1603111728073,
+        "duration" : 9745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  validate the product details",
+      "time" : {
+        "start" : 1603111728075,
+        "stop" : 1603111736668,
+        "duration" : 8593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  user Add product to Cart",
+      "time" : {
+        "start" : 1603111736669,
+        "stop" : 1603111738976,
+        "duration" : 2307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  assert product has been added",
+      "time" : {
+        "start" : 1603111738976,
+        "stop" : 1603111743206,
+        "duration" : 4230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  proceed to checkout",
+      "time" : {
+        "start" : 1603111743207,
+        "stop" : 1603111749066,
+        "duration" : 5859
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  assert that Guest CheckOut available",
+      "time" : {
+        "start" : 1603111749068,
+        "stop" : 1603111772713,
+        "duration" : 23645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  enter zipCode",
+      "time" : {
+        "start" : 1603111772715,
+        "stop" : 1603111774272,
+        "duration" : 1557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  proceed to Guest Checkout",
+      "time" : {
+        "start" : 1603111774275,
+        "stop" : 1603111776951,
+        "duration" : 2676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  click on CheckOut",
+      "time" : {
+        "start" : 1603111776953,
+        "stop" : 1603111793372,
+        "duration" : 16419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  assert navigated to Guest Checkout page",
+      "time" : {
+        "start" : 1603111793373,
+        "stop" : 1603111797677,
+        "duration" : 4304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  user enter shipping information",
+      "time" : {
+        "start" : 1603111797678,
+        "stop" : 1603111812995,
+        "duration" : 15317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Hooks.afterScenario(Scenario)",
+      "time" : {
+        "start" : 1603111812997,
+        "stop" : 1603111812997,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Hooks.AfterSteps()",
+      "time" : {
+        "start" : 1603111814722,
+        "stop" : 1603111814723,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 18
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Checkout"
+  }, {
+    "name" : "story",
+    "value" : "Validate user is able to proceed guest checkout on searched product"
+  }, {
+    "name" : "tag",
+    "value" : "E2E"
+  }, {
+    "name" : "host",
+    "value" : "KHILT-2391"
+  }, {
+    "name" : "package",
+    "value" : "Checkout"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate user is able to proceed guest checkout on searched product"
+  }, {
+    "name" : "thread",
+    "value" : "11308@KHILT-2391.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "E2E" ]
+  },
+  "source" : "ecfcc016d83bf46a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://www.rta.ae/ActiveMatrix/ESB/DIStudentInfo/XMLSchema/Schema.xsd">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <sch:StudentInfoRequest>
+            <sch:StudentInfoRequestType>
+                <sch:trafficFileNumber>?</sch:trafficFileNumber>
+                <sch:Period>
+                    <sch:startDateTime>?</sch:startDateTime>
+                    <sch:endDateTime>?</sch:endDateTime>
+                </sch:Period>
+                <sch:centerCode>?</sch:centerCode>
+                <sch:appId>?</sch:appId>
+            </sch:StudentInfoRequestType>
+        </sch:StudentInfoRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

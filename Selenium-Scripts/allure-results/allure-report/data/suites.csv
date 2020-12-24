@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 19 17:48:04 PKT 2020","Mon Oct 19 17:50:14 PKT 2020","130145","","Checkout","","Validate user is able to proceed guest checkout on searched product","","Validate user is able to proceed guest checkout on searched product",""
+"passed","Mon Oct 19 17:31:25 PKT 2020","Mon Oct 19 17:31:59 PKT 2020","33900","","Search Page","","Validate user is able to search the Product","","Validate user is able to search the Product",""

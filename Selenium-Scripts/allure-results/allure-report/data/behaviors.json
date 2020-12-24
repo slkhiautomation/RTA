@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Search Page",
+    "children" : [ {
+      "name" : "Validate user is able to search the Product",
+      "children" : [ {
+        "name" : "Validate user is able to search the Product",
+        "uid" : "b2cb6c583175c7a2",
+        "parentUid" : "6b4b445fa3b10ffecf16a1037c85eb2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603110685586,
+          "stop" : 1603110719486,
+          "duration" : 33900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b4b445fa3b10ffecf16a1037c85eb2d"
+    } ],
+    "uid" : "e17fe9bd38ac28b21b78e17436d5681c"
+  }, {
+    "name" : "Checkout",
+    "children" : [ {
+      "name" : "Validate user is able to proceed guest checkout on searched product",
+      "children" : [ {
+        "name" : "Validate user is able to proceed guest checkout on searched product",
+        "uid" : "ecfcc016d83bf46a",
+        "parentUid" : "ca6ac1e7863127e569f9c363d0622c55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603111684582,
+          "stop" : 1603111814727,
+          "duration" : 130145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca6ac1e7863127e569f9c363d0622c55"
+    } ],
+    "uid" : "e66154ca1b7ad81f145db1dcfdc8c1e7"
+  } ]
+}

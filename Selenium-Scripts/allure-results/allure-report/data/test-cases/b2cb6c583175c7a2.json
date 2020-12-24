@@ -1,0 +1,170 @@
+{
+  "uid" : "b2cb6c583175c7a2",
+  "name" : "Validate user is able to search the Product",
+  "historyId" : "abceff24fc01fc602967114ec7de7a9f",
+  "time" : {
+    "start" : 1603110685586,
+    "stop" : 1603110719486,
+    "duration" : 33900
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Hooks.beforeScenario(Scenario)",
+      "time" : {
+        "start" : 1603110689248,
+        "stop" : 1603110689250,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given  Navigate to Application",
+      "time" : {
+        "start" : 1603110689270,
+        "stop" : 1603110704954,
+        "duration" : 15684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  user search the product",
+      "time" : {
+        "start" : 1603110704958,
+        "stop" : 1603110707635,
+        "duration" : 2677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Click on search button",
+      "time" : {
+        "start" : 1603110707637,
+        "stop" : 1603110715093,
+        "duration" : 7456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  user able to see searched product in result",
+      "time" : {
+        "start" : 1603110715095,
+        "stop" : 1603110717493,
+        "duration" : 2398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Hooks.afterScenario(Scenario)",
+      "time" : {
+        "start" : 1603110717493,
+        "stop" : 1603110717493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Hooks.AfterSteps()",
+      "time" : {
+        "start" : 1603110719486,
+        "stop" : 1603110719486,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search Page"
+  }, {
+    "name" : "story",
+    "value" : "Validate user is able to search the Product"
+  }, {
+    "name" : "tag",
+    "value" : "Search"
+  }, {
+    "name" : "host",
+    "value" : "KHILT-2391"
+  }, {
+    "name" : "package",
+    "value" : "Search Page"
+  }, {
+    "name" : "suite",
+    "value" : "Search Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate user is able to search the Product"
+  }, {
+    "name" : "thread",
+    "value" : "12056@KHILT-2391.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Search" ]
+  },
+  "source" : "b2cb6c583175c7a2.json",
+  "parameterValues" : [ ]
+}

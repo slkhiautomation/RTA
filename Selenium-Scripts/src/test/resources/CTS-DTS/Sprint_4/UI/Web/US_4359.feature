@@ -1,0 +1,81 @@
+Feature:User Story: 4359 - As a user I want to have a new screen that allows me to define a group that contains certain countries to be used for configuring the training and testing customer preferences so that I can configure it based on DLD policies
+
+  Background:
+  Given Navigate to Application
+# Following Tabs will be displaying [Countries, Sponsor, Occupation]
+  @Spint4
+  Scenario: Validate user can see the Countries, Sponsor, Occupation tabs on Master Configuration Screen
+
+    When user enter text "drivingInstitute" in "userName" on "LoginPage"
+    And user enter text "password" in "password" on "LoginPage"
+    And user click on "Signin" button on "LoginPage"
+    Then Assert that "Dashboard" appear on "DashboardPage"
+    And user scroll to "handBook" on "DashboardPage"
+    And user scroll to "permitInvoice" on "DashboardPage"
+    And user click on "configuration-hub" button on "DashboardPage"
+    Then Assert that "masterConfiguration" appear on "DashboardPage"
+    And user click on "masterConfiguration" button on "DashboardPage"
+    Then Assert that "Countries-Tab" appear on "ConfigurationPage"
+    Then Assert that "Sponsor-Tab" appear on "ConfigurationPage"
+    Then Assert that "Occupation-Tab" appear on "ConfigurationPage"
+#    Once user will click on any Tab then follow radio button will be displaying [Groups, Countries]
+    And user click on "Countries-Tab" button on "ConfigurationPage"
+    Then Assert that "Groups" appear on "ConfigurationPage"
+    Then Assert that "Countries" appear on "ConfigurationPage"
+##    Verify Tab1 "Group" which will have the following Components
+    Then Assert that "Add-Group" appear on "ConfigurationPage"
+    Then Assert that "Search-Group" appear on "ConfigurationPage"
+#    Then Assert that "Search-GroupAR" appear on "ConfigurationPage"
+    Then Assert that "Group-Name" appear on "ConfigurationPage"
+#    Then Assert that "Group-NameAR" appear on "ConfigurationPage"
+    Then Assert that "Search-Button" appear on "ConfigurationPage"
+##    Verify Search Result:  Group List have the Following Columns
+    Then Assert that "Group-Name-EN" appear on "ConfigurationPage"
+    Then Assert that "Group-Name-AR" appear on "ConfigurationPage"
+    Then Assert that "Count" appear on "ConfigurationPage"
+    Then Assert that "Created-By" appear on "ConfigurationPage"
+    Then Assert that "Created-Date" appear on "ConfigurationPage"
+    Then Assert that "Modified-By" appear on "ConfigurationPage"
+    Then Assert that "Modified-Date" appear on "ConfigurationPage"
+    Then Assert that "Action-Column" appear on "ConfigurationPage"
+##    Verify Tab2 "Countries" which will have the following Components
+    And user click on "Countries" button on "ConfigurationPage"
+    Then Assert that "Country-Group-Name" appear on "ConfigurationPage"
+    Then Assert that "Country-Name-EN" appear on "ConfigurationPage"
+    Then Assert that "Date-Type" appear on "ConfigurationPage"
+    And user click on "Date~Type" button on "ConfigurationPage"
+    Then Assert that "Created~Date" appear on "ConfigurationPage"
+    Then Assert that "Modified~Date" appear on "ConfigurationPage"
+    Then Assert that "Assigned~Date" appear on "ConfigurationPage"
+    And user click on "Date~Type" button on "ConfigurationPage"
+##    Verify Drop Down Value
+    Then Assert that "DateFrom" appear on "ConfigurationPage"
+    Then Assert that "DateTo" appear on "ConfigurationPage"
+    Then Assert that "Search~Button" appear on "ConfigurationPage"
+##    Verify Search Result List Column
+    Then Assert that "Group-Name-EN-Countries" appear on "ConfigurationPage"
+    Then Assert that "Group-Name-AR-Countries" appear on "ConfigurationPage"
+    Then Assert that "Country-Name-EN-Countries" appear on "ConfigurationPage"
+    Then Assert that "Country-Name-AR-Countries" appear on "ConfigurationPage"
+    Then Assert that "ISOCode" appear on "ConfigurationPage"
+    Then Assert that "ISO-Standard-Name-EN" appear on "ConfigurationPage"
+    Then Assert that "ISO-Standard-Name-AR" appear on "ConfigurationPage"
+    Then Assert that "CreatedDate-Countries" appear on "ConfigurationPage"
+    Then Assert that "CreatedBy-Countries" appear on "ConfigurationPage"
+    Then Assert that "ModifiedDate-Countries" appear on "ConfigurationPage"
+    Then Assert that "ModifiedBy-Countries" appear on "ConfigurationPage"
+    Then Assert that "AssignedDate" appear on "ConfigurationPage"
+    Then Assert that "AssignedBy" appear on "ConfigurationPage"
+    Then Assert that "Action-Countries" appear on "ConfigurationPage"
+##    Verify Popup
+    And user click on "Groups" button on "ConfigurationPage"
+    And user click on "Add-Group" button on "ConfigurationPage"
+    Then Assert that "Group-PopUp" appear on "ConfigurationPage"
+    Then Assert that "GroupName-EN" appear on "ConfigurationPage"
+    Then Assert that "GroupName-AR" appear on "ConfigurationPage"
+    Then Assert that "Description" appear on "ConfigurationPage"
+    Then Assert that "Default" appear on "ConfigurationPage"
+    Then Assert that "Save-Button" appear on "ConfigurationPage"
+    And user click on "Close-Popup" button on "ConfigurationPage"
+    And user click on "user-Name" button on "DashboardPage"
+    And user click on "log-Out" button on "DashboardPage"
